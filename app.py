@@ -50,6 +50,8 @@ def handle_message(event):
         r = "晚安~愛你唷"
     elif msg == "我好想你":
         r = "我也很想你唷"
+    elif msg == "抱抱":
+        r = "給你一個大抱抱~！"
     line_bot_api.reply_message(
         event.reply_token,
         TextSendMessage(text=r))
