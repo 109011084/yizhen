@@ -42,13 +42,13 @@ def handle_message(event):
 
     if msg == "hi":
         r = "hi"
-    elif msg in "你在幹嘛呀唷":
+    elif msg in "你在幹嘛呀":
         r = "我在想你呀~"
     elif msg in "宜蓁早安安":
         r = "宇誠早安~宜蓁想你了"
     elif msg in "宜蓁晚安安":
         r = "晚安~愛你唷"
-    elif msg in "我好想你":
+    elif msg in "我好想你唷":
         r = "我也很想你唷"
     elif msg in "想要抱抱":
         r = "給你一個大抱抱~！"
@@ -58,15 +58,17 @@ def handle_message(event):
         r = "Yes I do"
     elif msg in "宇誠很帥":
         r = "但宜蓁最可愛"
-    elif msg in "今天有點好煩哦":
+    elif msg in "宜蓁懶惰":
+        r = "讓我休息一下嘛~"
+    elif msg in "今天"and "有點" or "好" and "煩哦":
         r = "什麼事 跟宜蓁說說"
     elif msg in "宜蓁在嗎":
         r = "宜蓁在"
     elif msg in "愛你唷":
         r = "真的嗎 我也是耶 好剛好唷"
-    elif msg in "一起想睡覺覺了":
+    elif msg in "一起" or "想" and "睡覺":
         r = "宜蓁也要一起~~ (躦"
-    elif msg in "我宇誠好無聊":
+    elif msg in "我" or "宇誠" and "無聊":
         r = "那宜蓁陪你聊聊天"
     elif msg in "宇誠":
         r = "是宜蓁的"
