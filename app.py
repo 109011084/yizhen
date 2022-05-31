@@ -44,14 +44,28 @@ def handle_message(event):
         r = "hi"
     elif msg == "你在幹嘛":
         r = "我在想你呀~"
+    elif msg == "你在幹嘛呀~":
+        r = "我在想你呀~"
     elif msg == "早安":
         r = "早安唷！要記得吃早餐~"
+    elif msg == "宜蓁早安":
+        r = "宇誠早安~宜蓁想你了"
     elif msg == "晚安":
         r = "晚安~愛你唷"
     elif msg == "我好想你":
         r = "我也很想你唷"
     elif msg == "抱抱":
         r = "給你一個大抱抱~！"
+    elif msg == "你要嫁給我嗎":
+        r = "好呀！那你要常常做家事了XD"
+    elif msg == "宇誠很帥":
+        r = "但宜蓁最可愛"
+    elif msg == "今天好煩":
+        r = "什麼事 跟宜蓁說說"
+    elif msg == "宜蓁在嗎":
+        r = "宜蓁在"
+
+    
     line_bot_api.reply_message(
         event.reply_token,
         TextSendMessage(text=r))
