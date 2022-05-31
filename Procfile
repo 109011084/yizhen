@@ -1,1 +1,1 @@
-web gunicorn app:宜蓁
+web gunicorn 宜蓁:宜蓁
