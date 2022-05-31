@@ -60,15 +60,15 @@ def handle_message(event):
         r = "但宜蓁最可愛"
     elif msg in "宜蓁懶惰":
         r = "讓我休息一下嘛~"
-    elif msg in "今天" and "有點" or "好" and "煩哦":
+    elif msg in "今天好煩哦":
         r = "什麼事 跟宜蓁說說"
     elif msg in "宜蓁在嗎":
         r = "宜蓁在"
     elif msg in "愛你唷":
         r = "真的嗎 我也是耶 好剛好唷"
-    elif msg in "一起" or "想" and "睡覺":
+    elif msg in "一起睡覺覺":
         r = "宜蓁也要一起~~ (躦"
-    elif msg in "我" or "宇誠" and "無聊":
+    elif msg in "我宇誠無聊":
         r = "那宜蓁陪你聊聊天"
     elif msg in "宇誠":
         r = "是宜蓁的"
