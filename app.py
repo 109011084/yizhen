@@ -72,6 +72,10 @@ def handle_message(event):
         r = "那宜蓁陪你聊聊天"
     elif msg == "我好無聊":
         r = "那宜蓁陪你聊聊天"
+    elif msg == "宜蓁":
+        r = "宜蓁在"
+    elif msg == "宇誠":
+        r = "是宜蓁的"
 
     
     line_bot_api.reply_message(
