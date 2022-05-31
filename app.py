@@ -64,6 +64,14 @@ def handle_message(event):
         r = "什麼事 跟宜蓁說說"
     elif msg == "宜蓁在嗎":
         r = "宜蓁在"
+    elif msg == "愛你":
+        r = "真的嗎 我也是耶 好剛好唷"
+    elif msg == "睡覺":
+        r = "宜蓁也要一起~~ (躦"
+    elif msg == "無聊":
+        r = "那宜蓁陪你聊聊天"
+    elif msg == "我好無聊":
+        r = "那宜蓁陪你聊聊天"
 
     
     line_bot_api.reply_message(
