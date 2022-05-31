@@ -42,7 +42,7 @@ def handle_message(event):
 
     if msg == "hi":
         r = "hi"
-    elif msg == "你在幹嘛":
+    elif msg in "你在幹嘛":
         r = "我在想你呀~"
     elif msg == "你在幹嘛呀~":
         r = "我在想你呀~"
