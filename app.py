@@ -60,7 +60,7 @@ def handle_message(event):
         r = "但宜蓁最可愛"
     elif msg in "宜蓁懶惰":
         r = "讓我休息一下嘛~"
-    elif msg in "今天"and "有點" or "好" and "煩哦":
+    elif msg in "今天" and "有點" or "好" and "煩哦":
         r = "什麼事 跟宜蓁說說"
     elif msg in "宜蓁在嗎":
         r = "宜蓁在"
