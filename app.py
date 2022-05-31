@@ -56,6 +56,8 @@ def handle_message(event):
         r = "好呀！那你要常常做家事了XD"
     elif msg in "宜蓁願意讓我娶妳嗎":
         r = "Yes I do"
+    elif msg in "宇誠":
+        r = "是宜蓁的"
     elif msg in "宇誠很帥":
         r = "但宜蓁最可愛"
     elif msg in "宜蓁懶惰":
@@ -70,8 +72,7 @@ def handle_message(event):
         r = "宜蓁也要一起~~ (躦"
     elif msg in "我宇誠無聊":
         r = "那宜蓁陪你聊聊天"
-    elif msg in "宇誠":
-        r = "是宜蓁的"
+
 
     
     line_bot_api.reply_message(
